@@ -1,5 +1,5 @@
 *** Settings ***
-Library        Selenium2Library
+Library        SeleniumLibrary
 Library        OperatingSystem
 Library        String
 Library        SikuliLibrary

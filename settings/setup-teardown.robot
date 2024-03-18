@@ -1,8 +1,8 @@
 *** Keywords ***
 Main Setup
     [Arguments]                                      ${url}
-    Empty Directory                                  ../alerts/testsuites/screenshots
-    Selenium2Library.Set Screenshot Directory        ../alerts/testsuites/screenshots
+    Empty Directory                                  testsuites/screenshots
+    Set Screenshot Directory                         testsuites/screenshots
     Open Browser                                     ${url}        
     ...                                              Google Chrome
     Maximize Browser Window
